@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature-AI Siblings - Interactive Demos</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+            color: #fff;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #2ecc71 0%, #3498db 50%, #9b59b6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .tagline { text-align: center; color: #3498db; font-size: 1.2em; margin-bottom: 40px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 25px;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .card:hover { transform: translateY(-5px); background: rgba(255, 255, 255, 0.1); }
+        .card h3 { color: #3498db; margin-bottom: 10px; }
+        .card p { color: #aaa; margin-bottom: 15px; font-size: 0.9em; }
+        .card a {
+            display: inline-block;
+            background: linear-gradient(135deg, #2ecc71, #3498db);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .card a:hover { opacity: 0.9; }
+        .footer { text-align: center; margin-top: 60px; color: #666; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌍 Nature-AI Siblings</h1>
+        <p class="tagline">18 AI concepts inspired by biological intelligence patterns</p>
+
+        <div class="grid">
+            <div class="card">
+                <h3>🗺️ Ecosystem Map</h3>
+                <p>Complete interactive map of all 18 Nature-AI siblings and their connections</p>
+                <a href="visualizations/ecosystem-map-ALL-18.html">Explore</a>
+            </div>
+            <div class="card">
+                <h3>🐙 Nine Brains</h3>
+                <p>Octopus-inspired distributed intelligence - 1 central + 8 arm brains</p>
+                <a href="visualizations/nine-brains-analyzes-hybrid-path.html">Explore</a>
+            </div>
+            <div class="card">
+                <h3>🪸 Coral Reef</h3>
+                <p>Revenue ecosystem visualization - how value flows through the system</p>
+                <a href="visualizations/coral-reef-monetization-ecosystem.html">Explore</a>
+            </div>
+            <div class="card">
+                <h3>🍄 Mycelium Network</h3>
+                <p>Underground communication patterns - how knowledge spreads</p>
+                <a href="visualizations/mycelium-connection-mapper.html">Explore</a>
+            </div>
+            <div class="card">
+                <h3>🦉 Owl Fact-Checker</h3>
+                <p>Probability-based truth verification system</p>
+                <a href="visualizations/owl-probability-fact-checker.html">Explore</a>
+            </div>
+            <div class="card">
+                <h3>🐜 Ant Trail</h3>
+                <p>Grant exploration using swarm intelligence patterns</p>
+                <a href="visualizations/ant-trail-custom-grants-explorer.html">Explore</a>
+            </div>
+            <div class="card">
+                <h3>🏛️ Truth Vault</h3>
+                <p>Mission manifesto - the Good Octopus vision</p>
+                <a href="visualizations/truth-vault-mission-manifesto.html">Explore</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Built by Charlotte Fallon Smith | Fallon AI | Good Octopus 🐙</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">AI for empowerment, not surveillance</p>
+        </div>
+    </div>
+</body>
+</html>
